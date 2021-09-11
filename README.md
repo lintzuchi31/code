@@ -1,2 +1,2 @@
-# code
-record
+### online judge solution
+#### welcome!!
