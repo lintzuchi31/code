@@ -1,0 +1,5 @@
+s=input("請輸入班級座號：")
+name=input("請輸入姓名：")
+password=input("請輸入密碼：")
+print("您的資訊為"+s+name)
+print("密碼設定為："+password)

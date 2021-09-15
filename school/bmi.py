@@ -1,0 +1,11 @@
+s=input("請輸入班級座號:")
+h=int(input("請輸入身高(cm):"))
+w=int(input("請輸入體重(kg):"))
+bmi=w/(h/100)**2
+print(s)
+if(bmi<18.5):
+    print("太瘦了")
+elif(bmi>=24):
+    print("該減重了")
+else:
+    print("標準")
