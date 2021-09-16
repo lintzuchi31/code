@@ -1,0 +1,10 @@
+print("請輸入數字直到9999結束")
+i=1
+ar=[]
+while(True):
+    s=int(input("請輸入第"+str(i)+"個數字："))
+    if(s==9999):
+        break
+    i+=1
+    ar.append(s)
+print("輸入的最小值為"+str(min(ar)))
